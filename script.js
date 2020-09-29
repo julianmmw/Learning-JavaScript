@@ -9,7 +9,7 @@ function getChord(notes){}
 function getHarmony(){
   console.log("Get Harmony started");
   var tab = []; //crea arreglo de tablatura
-  var c = 0 //define el numero del compas actual
+  var c = 0; //define el numero del compas actual
   tab[c] = ""; //crea el compas cero como un string vacio
   for (i = 0; i < song.Melody.length; i++){
     var character = song.Melody[i];    
